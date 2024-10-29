@@ -1,8 +1,8 @@
 // your code here
 // your code here
 let btn = document.getElementById("submit");
-let nameInput = document.querySelector("input[name='name']");
-let yearInput = document.querySelector("input[name='year']");
+let nameInput = document.querySelector("name");
+let yearInput = document.querySelector("year");
 let url = document.getElementById("heading");
 
 url.textContent = "https://localhost:8080/";
