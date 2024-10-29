@@ -1,7 +1,7 @@
 // your code here
 let btn = document.getElementById("button");
-let nameInput = document.querySelector("name");
-let yearInput = document.querySelector("year");
+let nameInput = document.querySelector("[name='name']");
+let yearInput = document.querySelector("[name='year']");
 let url = document.getElementById("url");
 
 url.textContent = "https://localhost:8080/";
